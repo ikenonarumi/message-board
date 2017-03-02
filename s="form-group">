@@ -1,0 +1,41 @@
+[33mcommit c21b4365af85619f69c9da4f957af8b3ed22a62f[m
+Author: Ikeno Narumi <i.narumi@me.com>
+Date:   Thu Mar 2 00:16:19 2017 +0000
+
+    form_group編集
+
+[33mcommit 0be4c4a708f068e64962e3c6cb6940a1c1456a1a[m
+Author: Ikeno Narumi <i.narumi@me.com>
+Date:   Tue Feb 28 11:28:46 2017 +0000
+
+    textare、for編集
+
+[33mcommit 24be6ce8237a70c0a0a5e151b221fa3a5d5404c9[m
+Author: Ikeno Narumi <i.narumi@me.com>
+Date:   Tue Feb 28 09:23:59 2017 +0000
+
+    using Bootstrap
+
+[33mcommit 32928327efa9daab7753bcfa6517b386cbc3d227[m
+Author: Ikeno Narumi <i.narumi@me.com>
+Date:   Mon Feb 27 14:04:53 2017 +0000
+
+    create message model
+
+[33mcommit d0d7271d6440fdbb479fc2b05778d8932b832ee4[m
+Author: Ikeno Narumi <i.narumi@me.com>
+Date:   Mon Feb 27 03:35:27 2017 +0000
+
+    create message model
+
+[33mcommit 1c5f6c6abb9807d4945a1b83f4899a33d4ddaa5d[m
+Author: Ikeno Narumi <i.narumi@me.com>
+Date:   Sun Feb 26 11:40:06 2017 +0000
+
+    create massages_controller
+
+[33mcommit 3b5e92772cd17227b197ba594f9f63883ff68f09[m
+Author: Ikeno Narumi <i.narumi@me.com>
+Date:   Sat Feb 25 14:48:35 2017 +0000
+
+    first commit
