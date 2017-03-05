@@ -1,8 +1,21 @@
 class MessagesController < ApplicationController
+  before_action :set_messge, only: [:edit, :update]
+  
   def index
     @message = Message.new
 
     @messages = Message.all
+  end
+  
+  def edit
+  end
+  
+  def update
+    if @message.update(message_params)
+      redirect_to root_path , notice: 'メッセージを編集しました。'
+    else
+      render 'edit'
+    end
   end
   
   def create
@@ -16,9 +29,18 @@ class MessagesController < ApplicationController
       render 'index'
     end
   end
-  
+
+  def destroy
+    @message.destroy
+    refirect_to root_path, notice: 'メッセージを削除しました。'
+  end
+
   private
   def message_params
     params.require(:message).permit(:name, :body)
+  end
+
+  def set_messge
+    @message = Message.find(params[:id])
   end
 end
