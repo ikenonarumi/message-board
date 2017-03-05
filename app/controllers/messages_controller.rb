@@ -1,5 +1,5 @@
 class MessagesController < ApplicationController
-  before_action :set_messge, only: [:edit, :update]
+  before_action :set_messge, only: [:edit, :update, :destroy]
   
   def index
     @message = Message.new
@@ -32,7 +32,7 @@ class MessagesController < ApplicationController
 
   def destroy
     @message.destroy
-    refirect_to root_path, notice: 'メッセージを削除しました。'
+    redirect_to root_path, notice: 'メッセージを削除しました。'
   end
 
   private
